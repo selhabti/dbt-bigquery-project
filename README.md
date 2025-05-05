@@ -8,20 +8,14 @@ Si tu utilises BigQuery, il te faut le plugin dbt-bigquery (et non dbt-postgres)
 Si tu utilises BigQuery, exécute :
 
 bash
-
+```
 pip install --upgrade dbt-bigquery
-
+```
 Cela va :
 
 Mettre à jour dbt-core à la dernière version compatible
 Installer le plugin dbt-bigquery (et désinstaller les autres si besoin)
-2. (Optionnel) Désinstaller l’ancien plugin postgres
-Si tu n’utilises pas PostgreSQL, tu peux le désinstaller :
-
-bash
-
-pip uninstall dbt-postgres
-3. Vérifier la version
+## 3. Vérifier la version
 Après installation, vérifie :
 
 bash
