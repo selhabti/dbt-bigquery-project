@@ -1,0 +1,9 @@
+name: 'dbt_bigquery_project'
+version: '1.0'
+config-version: 2
+
+profile: 'dbt-bigquery-project'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
